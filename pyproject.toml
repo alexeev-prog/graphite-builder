@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "graphitebuilder"
+version = "0.1.0"
+description = "Fast and modern Python build and project management system"
+authors = ["alexeev-prog <alexeev.dev@mail.ru>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
